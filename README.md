@@ -10,10 +10,8 @@
 > - Instale o [node.js](https://nodejs.org/en/download/)
 > -- Instale sempre a versão LTS. Motivo? É a versão mais estável.
 > - Depois de instalado execute dois comandos no terminal:
-> 
-> -- **node -v**
-> 
-> -- **npm -v**
+> - **node -v**
+> - **npm -v**
 > - É esperado que o terminal retorne a versão  do node e do npm (para cada comando acima :point_up:). 
 > - Execute o comando:
 > -- **npm install -g create-react-app**
