@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Sobre o repositório de React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> ### Qual o objetivo?
+> > - Estudar 
+> > - Eventuais consultas nos códigos de exemplo.
+> > - Eventuais consultas em diferentes versões com orientações pelos comentários do commit ou dos arquivos README 
 
-## Available Scripts
+> ### Se você está aqui para estudar, leia :point_down::
+> _**Vou te passar as dicas para você não ter que sofrer como eu**_ :joy:.
+> - Instale o [node.js](https://nodejs.org/en/download/)
+> -- Instale sempre a versão LTS. Motivo? É a versão mais estável.
+> - Depois de instalado execute dois comandos no terminal:
+> 
+> -- **node -v**
+> 
+> -- **npm -v**
+> - É esperado que o terminal retorne a versão  do node e do npm (para cada comando acima :point_up:). 
+> - Execute o comando:
+> -- **npm install -g create-react-app**
+> ou então
+> ****npm i -g create-react-app****
+> - Isso fará com que o comando **create-react-app** seja reconhecido no terminal e que execute o comando que queremos.
+> - Vá até uma pasta onde você queira criar o seu projeto e digite o comando **create-react-app _nome-da-pasta_**.
+> - _**Aqui há uma observação importantíssima**_:
+> > - Se você usar o Windows PowerShell o comando **create-react-app** você receberá uma mensagem de erro. Diferente do processo de instalação, que pode ser feito no Windows PowerShell, o comando **create-react-app** só será executado com sucesso no _**cmd**_ do Windows. 
+> > - Repare que quando escrevi o comando logo em seguida separado por espaço, tem o nome da pasta onde o projeto sera alocado. 
+> > - Essa pasta não precisa ser previamente criada antes de executar o comando. A função do comando, dentre muitas, é criar a pasta e baixar as dependências para dentro da pasta.
+> > - O nome da pasta **não** pode possuir caracteres maiúsculos, caso contrário o **cmd** retornará uma mensagem de erro.
+> > - Quando for baixar o arquivo do git, seja pelo comando pull ou pelo o comando clone, a pasta modules não será baixada. Essa pasta são as dependências e o nome dela está no gitignore. É um arquivo muito pesado e a melhor coisa a se fazer é: depois de replicar o código do git na máquina, entre na pasta e execute os seguintes comandos:
+> > **npm install**
+> > ou
+> > **yarn install**
+> > Isso baixará os arquivos de dependência para a pasta. 
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> ### Sugestões?
+> Sinta-se livre para fornecê-las. :grinning:
