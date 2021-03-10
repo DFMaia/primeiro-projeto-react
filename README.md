@@ -19,7 +19,11 @@
 > ****npm i -g create-react-app****
 > - Isso fará com que o comando **create-react-app** seja reconhecido no terminal e que execute o comando que queremos.
 > - Vá até uma pasta onde você queira criar o seu projeto e digite o comando **create-react-app _nome-da-pasta_**.
-> - _**Aqui há uma observação importantíssima**_:
+> - Para iniciar a aplicação, dentro da pasta digite o seguinte comando: 
+> - **yarn start**
+>  ou
+>  - **npm start**
+> - _**Aqui há observações importantíssimas**_:
 > > - Se você usar o Windows PowerShell o comando **create-react-app** você receberá uma mensagem de erro. Diferente do processo de instalação, que pode ser feito no Windows PowerShell, o comando **create-react-app** só será executado com sucesso no _**cmd**_ do Windows. 
 > > - Repare que quando escrevi o comando logo em seguida separado por espaço, tem o nome da pasta onde o projeto sera alocado. 
 > > - Essa pasta não precisa ser previamente criada antes de executar o comando. A função do comando, dentre muitas, é criar a pasta e baixar as dependências para dentro da pasta.
