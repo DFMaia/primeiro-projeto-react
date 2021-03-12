@@ -67,6 +67,31 @@
 > > Esta fase começa quando o componente React já nasceu no navegador e cresce recebendo novas atualizações. O componente pode ser atualizado de duas maneiras, através do envio de novas props ou a atualização do seu estado.
 > > **componentDidUpdate()** é chamado imediatamente após a atualização.
 > > **componentWillUpdate()** É  executado somente quando `shouldComponentUpdate`devolver true.
->
+> 
 > - **Desmontagem**:
 > > Nesta fase, o componente não é mais necessário e será desmontado do DOM. O método que se chama nesta fase é o: **componentWillUnmount()**
+
+> _**Eventos**_
+> _**Exemplo de código: commit 10**_
+> -
+> - Organizando o projeto em pastas com classes e como importá-las no App. 
+> - Alé do modo de execução de chamada normal com o 
+> ~~~javascript
+> <button onClick={this.entrar}>
+> ~~~
+> - Agora é possível fazer uma execução com uma função anônima
+> ~~~javascript
+> <button onClick={() => this.setState( {nome:  ''} )}>
+> ~~~
+> - Nesse último caso :point_up: não é preciso um script e portanto nem é preciso fazer um bind. Somente o constructor. A saída será uma String vazia. 
+> - Há ainda um últmo modo de se fazer com função anônima:
+> ~~~javascript
+> <button onClick = { () => this.entrar('Lucas') }> Entrar</button>
+> ~~~
+> No script fica assim: 
+> ~~~javascript
+> entrar(){
+	> 	this.setState({nome: nome})
+>	}
+> ~~~
+
