@@ -96,7 +96,7 @@
 > ~~~
 
 > _**Renderização condicional**_.
-> _**Exemplo de código: Commit 11**_
+> _**Exemplo de código: commit 11**_
 > -
 > - Adicionado código com renderização condicional utilizando constructor.
 > - Podemos com issso definir o que será renderizado na tela de acordo com alguma regra definida no código.
@@ -124,3 +124,13 @@
 > > 	}
 > > </div>
 > > ~~~
+
+> _**Trabalhando com Listas e Map**_
+> _**Exemplo de código: commit 12:**_
+> -
+> - Exibição de listas (`de objetos`). 
+> - Criação de classe para desempenhar como o resultado da lista será mostrado.
+> - Uso de `constructors` para inserção de valores na lista. 
+> - Uso de ID para identificar cada elemento da lista. 
+> - Uso de `método map` para iterar sobre a lista.
+> - Uso de if ternário dentro da classe para renderizar diferentes valores de acordo com a regra definida. 
