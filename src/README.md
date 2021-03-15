@@ -148,3 +148,9 @@
 > - Exemplo no código de capturar informações no formulário e manipular esse valores.
 > - `event.preventDefault()` não permite que a página atualize.
 > - Uso de condicional dentro de métodos e o uso de condicional simples depois da tag (`ver commit 11`)
+
+> _**Refatorando commit 13**_
+> _**Rexemplo de código: commit 15**_
+> -
+> - Foi criado uma função após o constructor que coleta todos os dados dentro do `input` ao invés de fazer uma função anônima dentro de cada `input`.
+> - Para entender melhor _é necessário_ comparar os códigos lado a lado. 
