@@ -104,7 +104,7 @@
 > - Há duas formas de se fazer uma condição. A primeira (e que não está no código e não é ternária) é essa :point_down::
 > > ~~~javascript
 > > <div>
-> > 	{ this;state;status === 1 &&
+> > 	{ this.state.status === 1 &&
 > > 		<h1>Bem vindo ao sistema!</h1>
 > > 	}
 > > </div>
@@ -141,3 +141,10 @@
 > - Exemplo de código do qual é capturado um valor e esse valor é manipulado. 
 > - Usa-se `onChange` na tag. 
 > - Usa-se `target` no método 
+
+> _**Formulários, condicionais e eventos.**_
+> _**Exemplo de código: commit 14:**_
+> -
+> - Exemplo no código de capturar informações no formulário e manipular esse valores.
+> - `event.preventDefault()` não permite que a página atualize.
+> - Uso de condicional dentro de métodos e o uso de condicional simples depois da tag (`ver commit 11`)
