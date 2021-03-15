@@ -22,7 +22,6 @@ class Membro extends Component {
                     Bem vindo {this.state.nome}
                     </h2>
                 <button onClick={this.entrar}>
-                {/**sdfsf */}
                     Entrar como Matheus
                 </button>
                 <button onClick={() => this.setState( {nome: ''} )}>

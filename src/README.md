@@ -91,7 +91,36 @@
 > No script fica assim: 
 > ~~~javascript
 > entrar(){
-	> 	this.setState({nome: nome})
+> 		this.setState({nome: nome})
 >	}
 > ~~~
 
+> _**Renderização condicional**_.
+> _**Exemplo de código: Commit 11**_
+> -
+> - Adicionado código com renderização condicional utilizando constructor.
+> - Podemos com issso definir o que será renderizado na tela de acordo com alguma regra definida no código.
+> - No `código` a condicional utilizada é o if ternário. 
+> - Há duas formas de se fazer uma condição. A primeira (e que não está no código e não é ternária) é essa :point_down::
+> > ~~~javascript
+> > <div>
+> > 	{ this;state;status === 1 &&
+> > 		<h1>Bem vindo ao sistema!</h1>
+> > 	}
+> > </div>
+> > ~~~
+> - A segunda forma é a ternária. Foi utilizado esse método no código. O que será mostrado abaixo é a forma mais simples, sem o uso de `constructor` :point_down::
+> > ~~~javascript
+> > <div>
+> > 	{this.state.status ?
+> > 		<div>
+> > 			<h2>Bem vindo ao sistema</h2>
+> > 		</div> : 
+> > 		<div>
+> > 			<h2>
+> > 				Olá visitante, faça o login.
+> > 			</h2>
+> > 		</div>
+> > 	}
+> > </div>
+> > ~~~
