@@ -133,4 +133,11 @@
 > - Uso de `constructors` para inserção de valores na lista. 
 > - Uso de ID para identificar cada elemento da lista. 
 > - Uso de `método map` para iterar sobre a lista.
-> - Uso de if ternário dentro da classe para renderizar diferentes valores de acordo com a regra definida. 
+> - Uso de if ternário dentro da classe para renderizar diferentes valores de acordo com a regra definida.
+
+> _**Manipulando formulários e capturando resultados do usuário**_.
+> _**Exemplo de código: commit 13:**_
+> -
+> - Exemplo de código do qual é capturado um valor e esse valor é manipulado. 
+> - Usa-se `onChange` na tag. 
+> - Usa-se `target` no método 
