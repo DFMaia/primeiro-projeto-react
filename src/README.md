@@ -150,7 +150,17 @@
 > - Uso de condicional dentro de métodos e o uso de condicional simples depois da tag (`ver commit 11`)
 
 > _**Refatorando commit 13**_
-> _**Rexemplo de código: commit 15**_
+> _**Exemplo de código: commit 15**_
 > -
 > - Foi criado uma função após o constructor que coleta todos os dados dentro do `input` ao invés de fazer uma função anônima dentro de cada `input`.
 > - Para entender melhor _é necessário_ comparar os códigos lado a lado. 
+
+> _**Projeto biscoito.**_
+> _**Exemplo de código: commit 16**_
+> -
+> - Exemplo no código. 
+> - Não sei porquer mas a minha imagem não renderiza no navegador. 
+> - Uso de Math.
+> - Criação de pasta `assets` com a imagem.
+> - Criação de arquivo para manipular estilo. 
+> - Alteração de index.css do React. 
