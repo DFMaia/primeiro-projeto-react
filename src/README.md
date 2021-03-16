@@ -164,3 +164,8 @@
 > - Criação de pasta `assets` com a imagem.
 > - Criação de arquivo para manipular estilo. 
 > - Alteração de index.css do React. 
+
+> _**Projeto timer**_
+> _**Exemplo de código: commit 17**_
+> -
+> - Exemplo no código. 
