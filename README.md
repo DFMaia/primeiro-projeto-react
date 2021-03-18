@@ -4,8 +4,11 @@
 > > - Estudar
 > > - Eventuais consultas nos códigos de exemplo.
 > > - Eventuais consultas em diferentes versões com orientações pelos comentários do commit ou dos arquivos README
-> 
 > ### Se você está aqui para estudar, leia :point_down::
+> 
+> - _**Projeto anterior**_: [Princípios Básicos JavaScript}](https://github.com/DFMaia/PrincipiosBasicosJavaScript)
+> - _**Próximo Projeto:**_ [Consumindo API com react](https://github.com/DFMaia/react-api)
+> 
 > _**Vou te passar as dicas para você não ter que sofrer como eu**_ :joy:.
 > - Instale o [node.js](https://nodejs.org/en/download/)
 > -- Instale sempre a versão LTS. Motivo? É a versão mais estável.
